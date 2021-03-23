@@ -450,7 +450,7 @@ a img.aligncenter {
     display: block;
     left: 0;
     padding: 10px 0px !important;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     top: 0;
     width: 100%;
