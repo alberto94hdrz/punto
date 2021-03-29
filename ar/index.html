@@ -97,16 +97,15 @@
 <!-- start the body of your page -->
 
 <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs='trackingMethod: best;'>
-        <a-anchor hit-testing-enabled='true'>
-            <a-entity>
-                <video type="video/mp4" id="penguin-sledding" autoplay="true" loop="false" src="assets/small.mp4" webkit-playsinline>
-            </a-entity>
-            <a-video  position="0 0.2 0" src="#penguin-sledding" rotation="90 180 0"></a-video>
-        </a-anchor>
+  <a-scene embedded arjs='trackingMethod: best;'>
+    <a-anchor hit-testing-enabled='true'>
+      <a-entity>
+        <video type="video/mp4" id="penguin-sledding" autoplay="true" loop="false" src="assets/small.mp4" webkit-playsinline>
+         </a-entity>
+         <a-video  position="0 0.2 0" src="#penguin-sledding" rotation="90 180 0"></a-video>
+      </a-anchor>
       <a-camera-static preset='hiro'/>
       <a-entity light="color: #ccccff; intensity: 1; type: ambient;" visible="">
-          
       </a-entity>
-    </a-scene>
+   </a-scene>
 </body>
